@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454313B91F6BC19900EE1C4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 454313B81F6BC19900EE1C4B /* AppDelegate.m */; };
+		454313BC1F6BC19900EE1C4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454313BB1F6BC19900EE1C4B /* main.m */; };
+		454313BF1F6BC19A00EE1C4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454313BE1F6BC19A00EE1C4B /* ViewController.m */; };
+		454313C11F6BC19A00EE1C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454313C01F6BC19A00EE1C4B /* Assets.xcassets */; };
+		454313C41F6BC19B00EE1C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454313C21F6BC19B00EE1C4B /* Main.storyboard */; };
+		454313CD1F6BC3B900EE1C4B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454313CC1F6BC3B900EE1C4B /* ImageIO.framework */; };
+		454313D41F6BF51500EE1C4B /* Exif.m in Sources */ = {isa = PBXBuildFile; fileRef = 454313D31F6BF51500EE1C4B /* Exif.m */; };
+		455DF32C1FFE1BD000BF496E /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 455DF32B1FFE1BD000BF496E /* MyCell.xib */; };
+		455DF32F1FFE1BE500BF496E /* MyCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 455DF32E1FFE1BE500BF496E /* MyCustomCell.m */; };
+		455DF3311FFE1F2800BF496E /* WechatIMG4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 455DF3301FFE1F2800BF496E /* WechatIMG4.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45395E9B2011CD75000BEA34 /* ExifProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExifProject.entitlements; sourceTree = "<group>"; };
+		454313B41F6BC19800EE1C4B /* ExifProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExifProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		454313B71F6BC19900EE1C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		454313B81F6BC19900EE1C4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		454313BB1F6BC19900EE1C4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		454313BD1F6BC19A00EE1C4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		454313BE1F6BC19A00EE1C4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		454313C01F6BC19A00EE1C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454313C31F6BC19B00EE1C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		454313C51F6BC19B00EE1C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454313CC1F6BC3B900EE1C4B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		454313D21F6BF51500EE1C4B /* Exif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exif.h; sourceTree = "<group>"; };
+		454313D31F6BF51500EE1C4B /* Exif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exif.m; sourceTree = "<group>"; };
+		455DF32B1FFE1BD000BF496E /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		455DF32D1FFE1BE500BF496E /* MyCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCell.h; sourceTree = "<group>"; };
+		455DF32E1FFE1BE500BF496E /* MyCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCell.m; sourceTree = "<group>"; };
+		455DF3301FFE1F2800BF496E /* WechatIMG4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG4.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454313B11F6BC19800EE1C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454313CD1F6BC3B900EE1C4B /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454313AB1F6BC19800EE1C4B = {
+			isa = PBXGroup;
+			children = (
+				454313B61F6BC19800EE1C4B /* ExifProject */,
+				454313B51F6BC19800EE1C4B /* Products */,
+				454313CB1F6BC3B900EE1C4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		454313B51F6BC19800EE1C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454313B41F6BC19800EE1C4B /* ExifProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454313B61F6BC19800EE1C4B /* ExifProject */ = {
+			isa = PBXGroup;
+			children = (
+				45395E9B2011CD75000BEA34 /* ExifProject.entitlements */,
+				454313B71F6BC19900EE1C4B /* AppDelegate.h */,
+				454313B81F6BC19900EE1C4B /* AppDelegate.m */,
+				454313BD1F6BC19A00EE1C4B /* ViewController.h */,
+				454313BE1F6BC19A00EE1C4B /* ViewController.m */,
+				454313D21F6BF51500EE1C4B /* Exif.h */,
+				454313D31F6BF51500EE1C4B /* Exif.m */,
+				454313C21F6BC19B00EE1C4B /* Main.storyboard */,
+				45768F511FFEFA18003A87A1 /* CustomCell */,
+				454313C01F6BC19A00EE1C4B /* Assets.xcassets */,
+				454313C51F6BC19B00EE1C4B /* Info.plist */,
+				454313BA1F6BC19900EE1C4B /* Supporting Files */,
+			);
+			path = ExifProject;
+			sourceTree = "<group>";
+		};
+		454313BA1F6BC19900EE1C4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				455DF3301FFE1F2800BF496E /* WechatIMG4.jpeg */,
+				454313BB1F6BC19900EE1C4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		454313CB1F6BC3B900EE1C4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				454313CC1F6BC3B900EE1C4B /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45768F511FFEFA18003A87A1 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				455DF32D1FFE1BE500BF496E /* MyCustomCell.h */,
+				455DF32E1FFE1BE500BF496E /* MyCustomCell.m */,
+				455DF32B1FFE1BD000BF496E /* MyCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		454313B31F6BC19800EE1C4B /* ExifProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454313C81F6BC19B00EE1C4B /* Build configuration list for PBXNativeTarget "ExifProject" */;
+			buildPhases = (
+				454313B01F6BC19800EE1C4B /* Sources */,
+				454313B11F6BC19800EE1C4B /* Frameworks */,
+				454313B21F6BC19800EE1C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExifProject;
+			productName = ExifProject;
+			productReference = 454313B41F6BC19800EE1C4B /* ExifProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454313AC1F6BC19800EE1C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = IACP;
+				TargetAttributes = {
+					454313B31F6BC19800EE1C4B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7SV7L3WK79;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 454313AF1F6BC19800EE1C4B /* Build configuration list for PBXProject "ExifProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 454313AB1F6BC19800EE1C4B;
+			productRefGroup = 454313B51F6BC19800EE1C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454313B31F6BC19800EE1C4B /* ExifProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		454313B21F6BC19800EE1C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455DF3311FFE1F2800BF496E /* WechatIMG4.jpeg in Resources */,
+				454313C11F6BC19A00EE1C4B /* Assets.xcassets in Resources */,
+				454313C41F6BC19B00EE1C4B /* Main.storyboard in Resources */,
+				455DF32C1FFE1BD000BF496E /* MyCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454313B01F6BC19800EE1C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455DF32F1FFE1BE500BF496E /* MyCustomCell.m in Sources */,
+				454313BF1F6BC19A00EE1C4B /* ViewController.m in Sources */,
+				454313D41F6BF51500EE1C4B /* Exif.m in Sources */,
+				454313BC1F6BC19900EE1C4B /* main.m in Sources */,
+				454313B91F6BC19900EE1C4B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		454313C21F6BC19B00EE1C4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454313C31F6BC19B00EE1C4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		454313C61F6BC19B00EE1C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		454313C71F6BC19B00EE1C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		454313C91F6BC19B00EE1C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExifProject/ExifProject.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SV7L3WK79;
+				INFOPLIST_FILE = ExifProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diver.exifproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		454313CA1F6BC19B00EE1C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExifProject/ExifProject.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SV7L3WK79;
+				INFOPLIST_FILE = ExifProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diver.exifproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454313AF1F6BC19800EE1C4B /* Build configuration list for PBXProject "ExifProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454313C61F6BC19B00EE1C4B /* Debug */,
+				454313C71F6BC19B00EE1C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454313C81F6BC19B00EE1C4B /* Build configuration list for PBXNativeTarget "ExifProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454313C91F6BC19B00EE1C4B /* Debug */,
+				454313CA1F6BC19B00EE1C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 454313AC1F6BC19800EE1C4B /* Project object */;
+}
